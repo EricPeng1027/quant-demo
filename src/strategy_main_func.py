@@ -1,5 +1,5 @@
 def initialize(context):
-    g.security = '000001.xSHE'
+    g.security = '000001.XSHE'
     run_daily(market_open, time='every_bar')
 
 def market_open(context):
